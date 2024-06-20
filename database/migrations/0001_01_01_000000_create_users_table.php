@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('password')->nullable();
             $table->string('user_name')->nullable();
             $table->string('rank')->nullable();
-            $table->string('full_name')->nullable();
+            $table->string('full_name');
             $table->string('designation')->nullable();
             $table->string('user_type')->nullable();
             $table->string('status')->nullable();
